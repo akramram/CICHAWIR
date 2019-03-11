@@ -20,10 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		
-		$pesan["pesan1"]="pesansatu";
-		$pesan["pesan2"]="pesan2";
-		$this->load->view('welcome_message',$pesan);
-
+		$pesan["pesan1"] = "Ini adalah pesan pertama";
+		$pesan["pesan2"] = "Ini adalah pesan kedua";
+		$this->load->view('myview', $pesan);
 	}
 }
