@@ -13,13 +13,13 @@ class BukuModel extends CI_Model
 
 				'judul' => 'mama suka',
 				'pengarang' => 'nopal',
-				'penerit' => 'shiny'
+				'penerbit' => 'shiny'
 			),
 
 			array(
 				'judul' => 'mama gk suka',
 				'pengarang' => 'nepal',
-				'penerit' => 'dark'
+				'penerbit' => 'dark'
 			)
 		);
 	}

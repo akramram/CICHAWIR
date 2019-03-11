@@ -16,12 +16,12 @@
         </tr>
         <?php
 		$no = 1;
-		for ($i = 0; $i < count($data_buku); $i++) {
+		for ($i = 0; $i < count($DataBuku); $i++) {
 			echo '<tr>';
 			echo '<td>' . $no . '</td>';
-			echo '<td>' . $data_buku[$i]['judul'] . '</td>';
-			echo '<td>' . $data_buku[$i]['pengarang'] . '</td>';
-			echo '<td>' . $data_buku[$i]['penerbit'] . '</td>';
+			echo '<td>' . $DataBuku[$i]['judul'] . '</td>';
+			echo '<td>' . $DataBuku[$i]['pengarang'] . '</td>';
+			echo '<td>' . $DataBuku[$i]['penerbit'] . '</td>';
 			echo '</tr>';
 
 			$no++;
