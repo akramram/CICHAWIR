@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class buku_model extends CI_Model {
+class Buku_model extends CI_Model {
 
     public function getBook() {
         return array(

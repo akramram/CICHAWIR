@@ -5,14 +5,14 @@ class Buku extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model('buku_model');
+        $this->load->model('Buku_model');
     }
 
 	public function index()
 	{
-		$data["data_buku"] = $this->buku_model->getBook();
+		$data["data_buku"] = $this->Buku_model->getBook();
         
         // load view buku_view
-		$this->load->view('buku_view', $data);
+		$this->load->view('Buku_view', $data);
 	}
 }
